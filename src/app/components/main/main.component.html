@@ -1,4 +1,12 @@
-<p>main works!</p>
-@for (item of [1,2,3,4,5,6]; track $index) {
-<app-card></app-card>
-}
+<main>
+	<section>
+		<div>
+			<h2>Artigos recomendados</h2>
+		</div>
+		<div>
+			@for (artigo of articles$ | async; track $index) {
+			<app-card [artigo]="artigo"></app-card>
+			}
+		</div>
+	</section>
+</main>

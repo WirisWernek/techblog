@@ -1,0 +1,22 @@
+section {
+	background-color: #f8f8ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 649px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	max-width: 592px;
+	width: 100%;
+	& > * {
+		width: 100%;
+	}
+}
+textarea {
+	resize: none;
+}

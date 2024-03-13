@@ -6,6 +6,7 @@ import { CardComponent } from './components/card/card.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainComponent } from './components/main/main.component';
+import { ArticlesService } from './services/articles.service';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MainComponent } from './components/main/main.component';
     BrowserModule
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+	ArticlesService
   ],
   bootstrap: [AppComponent]
 })

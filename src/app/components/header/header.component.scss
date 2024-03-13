@@ -1,0 +1,17 @@
+header {
+	background-color: #f8f8ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 560px;
+}
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 1216px;
+	gap: 235px;
+}
+section > div:first-child{
+	max-width: 580px;
+}
