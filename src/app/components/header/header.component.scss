@@ -12,6 +12,35 @@ section {
 	max-width: 1216px;
 	gap: 235px;
 }
-section > div:first-child{
-	max-width: 580px;
+section > div:first-child {
+	max-width: 581px;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+button {
+	padding: 14px 32px;
+	border: none;
+	border-radius: 4px;
+	background-color: #846aff;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #ffffff;
+}
+h1 {
+	font-size: 40px;
+	font-weight: 600;
+	line-height: 48px;
+	letter-spacing: 0px;
+	text-align: left;
+}
+p {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 36px;
+	letter-spacing: 0px;
+	text-align: left;
 }

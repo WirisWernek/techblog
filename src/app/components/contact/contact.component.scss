@@ -17,6 +17,39 @@ form {
 		width: 100%;
 	}
 }
+form > div {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+}
 textarea {
 	resize: none;
+}
+button {
+	padding: 14px 32px;
+	border: none;
+	border-radius: 4px;
+	background-color: #846aff;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #ffffff;
+	margin-top: 32px;
+}
+h2 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: 0em;
+	margin-bottom: 37px;
+}
+input, textarea{
+	padding: 19px 24px;
+	border-radius: 4px;
+	color: #7c7c8a;
+	background-color: #ffffff;
+	border: 1px solid #eaeaea;
 }
