@@ -27,3 +27,19 @@ h2 {
 	letter-spacing: 0em;
 	margin-bottom: 37px;
 }
+
+@media (max-width: 900px) {
+	section{
+		max-width: 704px;
+		gap: 56px;
+	}
+}
+@media (max-width: 450px) {
+	section{
+		max-width: 327px;
+		gap: 56px;
+	}
+	h2{
+		font-size: 24px;
+	}
+}

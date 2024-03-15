@@ -11,8 +11,8 @@ form {
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	max-width: 592px;
 	width: 100%;
+	max-width: 592px;
 	& > * {
 		width: 100%;
 	}
@@ -52,4 +52,17 @@ input, textarea{
 	color: #7c7c8a;
 	background-color: #ffffff;
 	border: 1px solid #eaeaea;
+}
+@media (max-width: 900px) {
+	form{
+	 max-width: 704px;
+	}
+}
+@media (max-width: 450px) {
+	form{
+	 width: 90%;
+	}
+	h2{
+		font-size: 24px;
+	}
 }

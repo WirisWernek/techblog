@@ -43,4 +43,72 @@ p {
 	line-height: 36px;
 	letter-spacing: 0px;
 	text-align: left;
+	max-width: 550px;
+}
+
+@media (max-width: 900px) {
+	header {
+		height: 764.5px;
+	}
+	section {
+		justify-content: center;
+		align-items: center;
+		flex-direction: column-reverse;
+		gap: 24px;
+		max-width: 550px;
+	}
+	img {
+		width: 330px;
+	}
+	p,
+	h1 {
+		text-align: center;
+	}
+	h1 {
+		font-size: 32px;
+	}
+	p {
+		font-size: 20px;
+		max-width: 450px;
+	}
+	section > div:last-child {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	section > div:first-child {
+		gap: 24px;
+		justify-content: center;
+		align-items: center;
+	}
+	button {
+		max-width: 214px;
+		padding: 14px 32px;
+		gap: 8px;
+		border-radius: 4px;
+	}
+}
+@media (max-width: 450px) {
+	h1 {
+		font-size: 24px;
+	}
+	p {
+		font-size: 16px;
+		max-width: 100%;
+	}
+	img{
+		width: 207px;
+	}
+	section{
+		max-width: 327px;
+		gap: 24px;
+	}
+	header{
+		height: fit-content;
+		padding: 64px 0px;
+	}
+	button{
+		width: 100%;
+		max-width: 100%;
+	}
 }
