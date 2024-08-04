@@ -5,7 +5,7 @@ import { ArticleModel } from '../models/article.model';
 @Injectable()
 export class ArticlesService {
 	articles$: BehaviorSubject<ArticleModel[]>;
-	base_path: string = '/assets/images/artigos';
+	base_path: string = 'assets/images/artigos';
 
 	constructor() {
 		this.articles$ = new BehaviorSubject(this._getList());
